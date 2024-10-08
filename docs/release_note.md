@@ -1,3 +1,5 @@
 # Release Note { #mpox-eir-release-note }
 
-## X.X.X
+## 0.0.1
+
+Version 0.0.1
