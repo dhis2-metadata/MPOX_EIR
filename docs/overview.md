@@ -1,19 +1,17 @@
-# Sensory Function: Eye and Ear Care
+# MPOX EIR
 
 ## Release note 
 
-- [Release note](#ncd-sf-release-note)
+- [Release note](#mpox-eir-release-note)
 
 ## Design
 
-- [Design](#ncd-sf-design)
+- [Design](#mpox-eir-design)
 
 ## Installation
 
-- [Installation guide](#ncd-sf-installation)
+- [Installation guide](#mapox-eir-installation)
 
 ## Metadata reference
 
-- [Version 1.0.2](https://packages.dhis2.org/en/NCD_SF/1.0.2/DHIS2.39/NCD_SF_COMPLETE_1.0.2_DHIS2.39.xlsx)
-- [Version 1.0.1](https://packages.dhis2.org/en/NCD_SF/1.0.1/DHIS2.39/NCD_SF_COMPLETE_1.0.1_DHIS2.39.xlsx)
-- [Version 1.0.0](https://packages.dhis2.org/en/NCD_SF/1.0.0/DHIS2.39/NCD_SF_COMPLETE_1.0.0_DHIS2.39.xlsx)
+- [Version X.X.X](https://packages.dhis2.org/en/MPOX_EIR/X.X.X/DHIS2.40/MPOX_EIR_X.X.X_DHIS2.40.xlsx)
