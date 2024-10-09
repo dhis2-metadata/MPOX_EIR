@@ -930,10 +930,25 @@
                     "id": "lVBb2wflxzI"
                 },
                 {
+                    "id": "pE7gIj5RTti"
+                },
+                {
                     "id": "zSPWz8xigMz"
                 },
                 {
+                    "id": "Wx7CisZipMY"
+                },
+                {
+                    "id": "jFkEuEeTGnB"
+                },
+                {
+                    "id": "O1X2XvuySMM"
+                },
+                {
                     "id": "D5OU8ipTWN9"
+                },
+                {
+                    "id": "i1dYVPFd9nN"
                 },
                 {
                     "id": "x1ICnnAEEqA"
@@ -951,6 +966,9 @@
                     "id": "gZd1UwucYRs"
                 },
                 {
+                    "id": "NfzMj5d8w2A"
+                },
+                {
                     "id": "p1K0rdikKdY"
                 },
                 {
@@ -963,34 +981,16 @@
                     "id": "nYKa5Gsobbr"
                 },
                 {
-                    "id": "AfmaJhhAD49"
-                },
-                {
-                    "id": "EnXzDzd632C"
-                },
-                {
-                    "id": "pE7gIj5RTti"
-                },
-                {
-                    "id": "Wx7CisZipMY"
-                },
-                {
-                    "id": "jFkEuEeTGnB"
-                },
-                {
-                    "id": "O1X2XvuySMM"
-                },
-                {
-                    "id": "i1dYVPFd9nN"
-                },
-                {
-                    "id": "NfzMj5d8w2A"
-                },
-                {
                     "id": "LQlXKPvVqn1"
                 },
                 {
                     "id": "zNDhaz1f5Ot"
+                },
+                {
+                    "id": "AfmaJhhAD49"
+                },
+                {
+                    "id": "EnXzDzd632C"
                 },
                 {
                     "id": "A89gccjbRG7"
@@ -3588,151 +3588,6 @@
     "predictors": [],
     "programIndicatorGroups": [],
     "programIndicators": [
-        {
-            "aggregationType": "COUNT",
-            "analyticsPeriodBoundaries": [
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "lvndeyHTjxI",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                }
-            ],
-            "analyticsType": "EVENT",
-            "attributeValues": [],
-            "code": "YR_3TEST_MPOX_EIR_PEOPLE_1ST_DOSE",
-            "decimals": 0,
-            "expression": "d2:condition('(d2:countIfValue(#{VsozkO60dF8.nYKa5Gsobbr},\"DOSE1\") == 1) && d2:daysBetween(V{event_date},V{analytics_period_start}) == 0 && d2:daysBetween(V{event_date},V{analytics_period_end}) == 0 && V{program_stage_id} == \"VsozkO60dF8\"',1,0)",
-            "id": "Kh1llyjri7f",
-            "legendSets": [],
-            "name": "MPOX - YR_3TEST_Number of people receiving a first dose",
-            "program": {
-                "id": "kFlCUSPV9mH"
-            },
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "BxFbkh1WWbP": {
-                        "access": "r-------",
-                        "id": "BxFbkh1WWbP"
-                    },
-                    "eWID84rjDbw": {
-                        "access": "rw------",
-                        "id": "eWID84rjDbw"
-                    },
-                    "u17QhaTcqc2": {
-                        "access": "r-------",
-                        "id": "u17QhaTcqc2"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "MPOX - YR_3TEST_First dose - Number of people",
-            "translations": []
-        },
-        {
-            "aggregationType": "SUM",
-            "analyticsPeriodBoundaries": [
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "PS_EVENTDATE:VsozkO60dF8",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "ZowduGWK57s",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "dnXKAH7qH0E",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "PS_EVENTDATE:VsozkO60dF8",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "zbCs47IYkfe",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                }
-            ],
-            "analyticsType": "ENROLLMENT",
-            "attributeValues": [],
-            "code": "YR_TEST_MPOX_EIR_PEOPLE_1ST_DOSE",
-            "decimals": 0,
-            "expression": "d2:condition('(d2:countIfValue(#{VsozkO60dF8.nYKa5Gsobbr},\"DOSE1\") ==1)',1,0)",
-            "id": "xLm2tQrXY06",
-            "legendSets": [],
-            "name": "MPOX - YR_TEST_Number of people receiving a first dose",
-            "program": {
-                "id": "kFlCUSPV9mH"
-            },
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "BxFbkh1WWbP": {
-                        "access": "r-------",
-                        "id": "BxFbkh1WWbP"
-                    },
-                    "eWID84rjDbw": {
-                        "access": "rw------",
-                        "id": "eWID84rjDbw"
-                    },
-                    "u17QhaTcqc2": {
-                        "access": "r-------",
-                        "id": "u17QhaTcqc2"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "MPOX - YR_TEST_First dose - Number of people",
-            "translations": []
-        },
         {
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
@@ -8599,13 +8454,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "tbb6BHqqkWR",
+                    "id": "O9Xh8Xr1HMt",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -8616,13 +8471,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "O9Xh8Xr1HMt",
+                    "id": "tbb6BHqqkWR",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -9297,13 +9152,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "CqGvwBjam6F",
+                    "id": "cxowOfIqowG",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -9314,13 +9169,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "cxowOfIqowG",
+                    "id": "CqGvwBjam6F",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -11799,10 +11654,10 @@
                     "id": "PT2RDYvLL3p"
                 },
                 {
-                    "id": "Q4jCwhIQd7x"
+                    "id": "gDu2jStUIoA"
                 },
                 {
-                    "id": "gDu2jStUIoA"
+                    "id": "Q4jCwhIQd7x"
                 }
             ],
             "programStage": {
